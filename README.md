@@ -18,14 +18,13 @@ This is a utility library used to generate POJOs (Plain Old Java Objects). A POJ
 ## Setup
 
 1. Add the Jitpack repository to your `build.gradle` file, if you don't have a Gradle build file then... what are you doing with your life?
-```
+```gradle
 repositories {
-  ...
   maven { url 'https://jitpack.io' }
 }
 ```
 2. Add PojoBuilder to your dependencies and then refresh Gradle.
-```
+```gradle
 dependencies {
   implementation 'com.github.maowcraft:pojobuilder:<insert version here>'
 }
