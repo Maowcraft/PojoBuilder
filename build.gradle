@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+group = 'maow'
+archivesBaseName = 'pojobuilder'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.sun.codemodel:codemodel:2.6'
+}

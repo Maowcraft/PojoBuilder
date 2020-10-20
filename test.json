@@ -1,0 +1,12 @@
+{
+  "apiKey": "thisisntarealkey-2950596",
+  "apiVersion": 1,
+  "entrypoints": [
+    "entrypoint.test", "entrypoint.test2"
+  ],
+  "metadata": {
+    "icon": "meme.png",
+    "description": "This doesn't actually belong to any API, it's just a random json file to demonstrate what this would look like.",
+    "author": "me lol"
+  }
+}
